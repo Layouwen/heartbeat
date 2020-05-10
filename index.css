@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bd-left,
+.bd-right {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    width: 50%;
+    height: 100vh;
+    background: ;
+}
+
+@media screen and (max-width: 1400px) {
+
+    .bd-left,
+    .bd-right {
+        width: 100%;
+    }
+
+    .bd-right {
+        display: none;
+    }
+}
+
+.bd-right>div:first-child,
+.bd-left>div:first-child {
+    position: absolute;
+    top: 25%;
+    font-size: 40px;
+}
+
+
+
+.heart {
+    position: relative;
+    width: 100px;
+    /* height: 100px; */
+    transition: all .5s;
+}
+
+.bd-left .heart {
+    animation: jump .5s infinite alternate;
+}
+
+.bd-right .heart:hover {
+    transform: scale(1.5);
+}
+
+@keyframes jump {
+    100% {
+        transform: scale(1.5);
+    }
+}
+
+.heart-left,
+.heart-bd,
+.heart-right {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background: red;
+
+}
+
+.heart-left {
+    bottom: 100%;
+    right: 100%;
+    transform: rotate(45deg) translateX(60px);
+    border-radius: 50% 0 0 50%;
+}
+
+.heart-bd {
+    transform: rotate(45deg);
+}
+
+.heart-right {
+    bottom: 100%;
+    left: 100%;
+    transform: rotate(-45deg) translateX(-60px);
+    border-radius: 0 50% 50% 0;
+}
