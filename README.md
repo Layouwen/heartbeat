@@ -1,7 +1,8 @@
 # heartbeat 心跳
 
-## 预览链接
-[预览](https://layouwen.github.io/heartbeat/index)
+## 查看效果
+
+[点击预览](https://layouwen.github.io/heartbeat/index)
 
 ## 介绍
 
