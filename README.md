@@ -1,5 +1,8 @@
 # heartbeat 心跳
 
+## 预览链接
+[预览](https://layouwen.github.io/heartbeat/index)
+
 ## 介绍
 
 适合初学CSS动画的朋友参考，本项目分别使用了 animation 和 transition+hover 实现模拟心跳的效果。
